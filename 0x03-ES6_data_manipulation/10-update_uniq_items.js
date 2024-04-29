@@ -1,4 +1,4 @@
-/* eslint-disable no-parameter-re-assign */
+/* eslint-disable no-param-reassign */
 export default function updateUniqueItems(map) {
   if (map instanceof Map) {
     for (const [key, value] of map) {
